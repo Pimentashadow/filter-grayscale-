@@ -1,0 +1,23 @@
+div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex:wrap;
+}
+
+div img{
+  width:200px;
+  heigth:150px;
+  border: 1px solid #333;
+  border-radius:13px;
+  cursor: pointer;
+  box-shadow: 4px 7px 7px 0px #blue;
+  margin:10px;
+  transition:400ms;
+  
+  &:hover{
+    /*filter:grayscale(1);/*faz com a imgem fique cinzenta*/
+    filter:blur(4px);desfoca a imgem*/
+    transform:scale(1.05);
+  }
+}
